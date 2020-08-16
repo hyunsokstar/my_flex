@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-prax1</title>
+    <link rel="stylesheet" href="default.css">
+    <style>
+        .meal-css-tester-container {
+            border: 3px solid currentColor;
+            border-radius: 5px;
+            font-size: 1.2em;
+            line-height: 1.4;
+            background: #ffe300;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+        }
+
+        .item:nth-child(1) {
+            margin: 3px;
+            padding: 2px;
+            border: 3px solid currentColor;
+            border-radius: 3px;
+            font-weight: bold;
+            background: #26ab1c;
+            transition: 0.4s;
+            flex-shrink: 1;
+            width: 100px;
+        }
+
+        .item:nth-child(2) {
+            margin: 3px;
+            padding: 2px;
+            border: 3px solid currentColor;
+            border-radius: 3px;
+            font-weight: bold;
+            background: #26ab1c;
+            flex-grow: 1;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="meal-css-tester-container" ">
+        <div class="item">AAAAA</div>
+        <div class="item" >BBBBBB</div>
+        <div class="item" >CCCCC</div>
+    </div>
+
+</body>
+</html>

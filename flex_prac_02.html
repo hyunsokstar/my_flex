@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-prax1</title>
+    <link rel="stylesheet" href="default.css">
+
+    <style>
+
+        .flex-container {
+            display: flex;
+            flex-direction:column;
+        }
+
+        @media(min-width: 600px) {
+            .flex-container {
+                flex-direction:row;
+            }
+            .flex-item {
+                flex: 1;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item">AAAAAAAAAAAAAAAAAAAAAAA</div>
+        <div class="flex-item">BBBBBBBB</div>
+        <div class="flex-item">CCCCCCCCCCCCCCCC</div>
+        <div class="flex-item">DDDDDDDDDDDDDDDDDDDDDDDDDDDD</div>
+    </div>
+
+</body>
+</html>
